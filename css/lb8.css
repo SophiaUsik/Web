@@ -1,0 +1,44 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 120px 1fr 100px;
+    grid-template-areas:
+        "header header"
+        "aside main"
+        "footer footer";
+    height: 100%; 
+}
+
+.grid-item {
+    background-color: rgb(143, 1, 60);
+    border: 3px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #000000;
+}
+
+header {
+    grid-area: header;
+}
+
+aside {
+    grid-area: aside;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
