@@ -1,0 +1,42 @@
+body{
+    background: url("../source/img/laboratorywork4/bg_page.png") center repeat-y;
+    background-color: #fef8ac;
+}
+#content{
+    max-width: 800px;
+    margin: 0 auto;
+}
+#banner img{
+    max-width: 100%;
+}
+h1, h2, h3{
+    border-top: 2px solid #8c9447;
+    display: flex;
+    justify-content: left;
+    color: #ad7d31;
+    padding-left: 90px;
+}
+p:nth-child(3){
+    color: #c06f13;
+    font-size: 18px;
+}
+p{
+    margin-left: 90px;
+    max-width: 670px;
+}
+.advice {
+    padding: 10px;
+    text-align: left;
+    border: 1px dashed #948b50;
+    background-color: #fbf8a9;
+    width: 80%;
+    font-size: 14px;
+    color: #000;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.advice strong {
+    color: rgb(170, 13, 13);
+    text-transform: uppercase;
+}
